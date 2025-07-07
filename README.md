@@ -38,3 +38,7 @@ e tente executar o comando novamente. <br>
 <code> docker-compose up -d </code>
  - Para saber como acessar os containers, o script criará um arquivo chamado "mapeamento_de_ip.md", execute o comando: <br><code> pandoc mapeamento_de_ip.md | lynx -stdin </code>
  - Para acessar o RootTheBox(caso você opte por inicia-lo também), basta usar o endereço IP da sua máquina host com a porta 8888 em um navegador.
+
+### Credenciais
+
+As maquinas dentro do docker tem credenciais padrões com as senhas "P@ssw0rd" nos usuarios admin e root, já a pagina default de login do root the box, as credenciais são "admin:rootthebox". Outras senhas dentro das maquinas utilize as credenciais: "P@ssw0rd" 
