@@ -1,4 +1,11 @@
-.venv
-!*README.md
-compose.yaml
-mapeamento_de_ip.md
+# Chaves SSH - NÃO SUBIR
+*.ppk
+*.pem
+*private-key*
+
+# AWS
+*.sh
+
+# Outros
+.DS_Store
+*.log

@@ -1,7 +1,8 @@
 # GUIA COMPLETO - CTF ROOTTHEBOX
 
 ## PASSO 1: BAIXAR CHAVE SSH
-Baixe o arquivo: `ctf-private-key.ppk` (já está nesta pasta)
+**IMPORTANTE:** A chave SSH não está no repositório por segurança.
+Solicite o arquivo `ctf-private-key.ppk` ao organizador do CTF.
 
 ## PASSO 2: IPs DAS VMs
 - VM 1: 54.234.131.82
