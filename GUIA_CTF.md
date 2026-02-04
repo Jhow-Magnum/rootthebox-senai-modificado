@@ -5,11 +5,10 @@
 Solicite o arquivo `ctf-private-key.ppk` ao organizador do CTF.
 
 ## PASSO 2: IPs DAS VMs
-- VM 1: 54.234.131.82
-- VM 2: 3.80.116.48
-- VM 3: 54.196.169.46
-- VM 4: 3.87.123.221
-- VM 5: 100.53.132.229
+Obtenha os IPs das suas VMs com:
+```bash
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].PublicIpAddress' --output table
+```
 
 ## PASSO 3: ACESSO SSH (PARA HACKEAR)
 **Windows (PuTTY):**
